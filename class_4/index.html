@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form in HTML</title>
+  </head>
+  <body>
+   <!-- form entry are key web feature and form entry start with the form element with the method displaying thr operation carry out   -->
+    <form method="Post">
+      <!-- Label allow you label the input field -->
+    <label>Name</label><br>
+    <!-- input element allows use enter form and it has a lot of attribute like "type" text which is used to enter text and a validation of required which ensures the input is not skipped     -->
+    <input type="text" required /><br>
+
+     <label>Email</label><br>
+    <!-- input also have a type of email allow you enter only email and reject entries that are not email   -->
+    <input type="email" required/><br>
+
+    <label>Password</label><br>
+    <!-- input also have a type of Password, that allows you enter password and these password are by default harsh to prevent be viewed    -->
+    <input type="password" required/><br>
+    
+    <label>Date of birth</label><br>
+    <!-- input also have a type of Date, that allows you enter a date   -->
+    <input type="date" required/><br>
+
+    <label>Phone Number</label><br>
+    <!-- input also have a type of Number, that allows you enter only numbers   -->
+    <input  type="number" required/><br>
+    <label>Gender</label><br>
+    <!-- input also have a type of radio, that serves as an option field that has  attribute name that allow you chose just one option and radio are many for an option that differentiates them from checkbox -->
+    <input  type="radio"  name="gender"/>Male <br>
+    <input  type="radio"  name="gender"/>Female<br>
+
+    <label>Programming language Known to you </label><br>
+    <!-- input also have a type of checkbox, that serves as an option field checkbox allow you select many option in the option field -->
+    <input  type="checkbox"  />Javascript <br>
+    <input  type="checkbox"  />Java<br>
+    <input  type="checkbox"  />PHP<br>
+    <input  type="checkbox"  />Ruby<br>
+
+    <!-- form also allow a selection of dropdown option and this is done by the select and  option element while the attribute of value show the value of the selected option -->
+        <select>
+            <option value="benz">Benz</option>
+            <option value="honda">Honda</option>
+        </select><br>
+    <!-- textarea are mainly used for write opinion in a form it has two attribute row and cols that allow u increase or reduce the size of the text area depending on your choice   -->
+    <br>
+    <textarea  cols="30" rows="10"></textarea><br>
+    <!--  -->
+    <!-- finally on form entry we have the button they are used to submit or reset  a form using the type of submit or reset   -->
+     <button type="submit">Submit</button>
+     <button type="reset">Reset</button>
+    </form>
+  </body>
+</body>
+</html>
