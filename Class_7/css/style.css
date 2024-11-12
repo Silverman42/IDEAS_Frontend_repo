@@ -1,0 +1,63 @@
+/*
+This is a sample class selector that changes the background color of the elements it is used on to blue
+*/
+.card{
+    background-color: rgb(36, 119, 192);
+}
+
+/*
+This is a psuedo class selector that selects an img element
+that is a descendant of the elements with the class .card
+irrespective of the depth
+*/
+.card img{
+    width: 200px;
+}
+
+/*
+This is a psuedo class selector that selects an img element
+that is a descendant of the elements with the class .card
+only if the img element is the direct child of the element
+*/
+.card > img{
+    width: 200px;
+}
+
+.card h1{
+    color: white
+}
+
+.card p{
+    color: white;
+}
+
+/* This is a class selector that changes the background color of the elements it is used on to purple */
+.card2{
+    background: purple;
+}
+
+/* This state change selector changes the background color of card2 to red when it is hovered on */
+.card2:hover{
+    background-color: red;
+}
+
+/* This state change selector changes the color of h1 to yellow when it is hovered on  */
+.card2 h1:hover{
+    color: yellow;
+}
+.card2 h1:focus{
+    color: yellow;
+}
+
+.textbox{
+    margin-top: 20px;
+    width: 500px;
+    padding: 15px;
+}
+
+/* This state change selector changes the border color of elements with the class .textbox to red when it is focused on */
+.textbox:focus{
+    border: 1px solid red;
+    outline: 0px;
+}
+

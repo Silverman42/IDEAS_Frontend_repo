@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    background-image: url(../images/An_isometric_illustration_no_background.png);
+    background-size: 300px;
+    background-repeat: repeat-x;
+    text-decoration: underline;
+}
+
+.second_text{
+    font-family: "Sour Gummy", sans-serif; /* (Font family is used to change the font of the text) */
+    text-align: center; /* (Text align is used to change the position of the text) right, left, justify */
+    font-size: 3rem; /* (Font size is used to change the size of the text) 1rem = 16px */
+    text-decoration:underline; /* (Text decoration is used to change the style of the text) overline, line-through, dashed, double */
+    color: blue; /* color is used to change the color of the text */
+    text-transform: capitalize;  /* (Text transfor is used change the case of the text) uppercase, lowerecase */
+    font-weight: 900; /* (Font weight is used to channge the thickness of the text) 400 to 900*/
+    font-style: italic; /* (Font style is used to change the style of the text) normal, italic, oblique */
+    letter-spacing: 2px; /* (Letter spacing is used to change the space between the letters) */
+    word-spacing: 2px; /* (Word spacing is used to change the space between the words) */
+}
