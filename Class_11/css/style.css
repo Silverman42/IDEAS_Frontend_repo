@@ -1,0 +1,38 @@
+.navbar{
+    /* background: black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   padding: 10px 50px;
+   box-sizing: border-box;
+}
+
+.navlink{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-logo{
+    color: rgb(255, 47, 0);
+}
+
+.container{
+    display: flex;
+    background-color: aqua;
+    width: 80%;
+    padding: 10px;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:column-reverse;
+}
+
+.content{
+    width: 25%;
+    background-color: rgb(6, 21, 98);
+    color: white;
+    border: 1px solid white;
+}

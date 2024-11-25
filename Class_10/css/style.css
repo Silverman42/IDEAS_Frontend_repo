@@ -1,0 +1,68 @@
+/*
+This selector used to reset the default box sizing,
+margin and padding of all the elements in the document
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    background-color: rgb(211, 185, 241);
+    padding: 30px;
+    position: relative;
+    min-height: 100vh;
+    margin-bottom: 100px;
+}
+
+.flex-container{
+    width: 100%;
+    background-color: rgb(211, 185, 241);
+    justify-content: flex-end;
+    min-height: 100vh;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.box, .long-box{
+    width: 200px;
+    height: 200px;
+}
+
+.long-box{
+    height: 400px;
+}
+
+.relative{
+    position: relative;
+    background-color: rgb(222, 255, 196);
+}
+
+.absolute{
+    position: absolute;
+    background-color: bisque;
+    bottom: 0px;
+    right: 0px;
+}
+
+.sticky{
+    position: sticky;
+    background-color: rgb(232, 172, 172);
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.fixed{
+    position: fixed;
+    background-color: rgb(172, 232, 225);
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
