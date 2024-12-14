@@ -1,0 +1,49 @@
+/* Resettting the default box-sizing, margin and padding of all the elements */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* All styles that are not within the media query will be applied to all screen sizes.
+Due to the design approach being mobile-first, styles in media queries will be applied to displays larger than the mobile view. */
+.container{
+    display: flex;
+    background-color: pink;
+    width: 100vw;
+    gap: 50px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.box{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(240, 94, 94);
+}
+
+/* For devices width screen size of 768px and above (tablet and desktop) */
+/* This style applied here will overide the default styles applied for the selectors above */
+@media screen and (min-width: 768px){
+    .container{
+        flex-direction: row;
+        background-color: aliceblue;
+    }
+
+    .box{
+        width: 30%;
+        background-color: rgb(76, 139, 194);
+    }
+}
+
+/* For devices width screen size of 1200px and above (desktop and large screen monitors) */
+/* This style applied here will overide the style in the media query above */
+@media screen and (min-width: 1200px){
+    .container{
+        background-color: rgb(255, 249, 240);
+    }
+
+    .box{
+        background-color: rgb(194, 151, 76);
+    }
+}
